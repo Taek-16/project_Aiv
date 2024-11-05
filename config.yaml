@@ -1,0 +1,19 @@
+3d_data_path: "/home/bp/taek_project/data/sample_data.pcd"
+depth_map_path: "/home/bp/taek_project/img/depth_map.txt"   # 비워두면 저장 안 함
+heat_map_path: "/home/bp/taek_project/img/heat_map.png"     # 비워두면 저장 안 함
+
+log:
+  path: "logs/app.log"
+  file_log: true
+  print_log: true
+
+algorithm:
+  noise_reduction:
+    method: "statistical_outlier_removal"
+    nb_neighbors: 20
+    std_ratio: 1.0
+  projection:
+    width: 640
+    height: 480
+    vector: [0, 0, 0]
+ 
