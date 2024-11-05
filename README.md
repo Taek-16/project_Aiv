@@ -22,8 +22,6 @@ python main.py
 pytest-3 tests/
 ```
 
-## 사용 방법
-
 ### 요구사항 설치
 ```bash
 pip install -r requirements.txt
